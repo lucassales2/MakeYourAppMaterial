@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.Bacon" parent="@style/Theme.AppCompat.NoActionBar">
+    <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
         <item name="android:windowContentTransitions">true</item>
-        <!--&lt;!&ndash; specify enter and exit transitions &ndash;&gt;-->
-        <!--<item name="android:windowEnterTransition">@transition/explode</item>-->
-        <!--<item name="android:windowExitTransition">@transition/explode</item>-->
+        <item name="colorPrimary">@color/orange_500</item>
+        <item name="colorPrimaryDark">@color/orange_700</item>
+        <item name="colorAccent">@color/orange_300</item>
 
-        <!--&lt;!&ndash; specify shared element transitions &ndash;&gt;-->
-        <!--<item name="android:windowSharedElementEnterTransition">@transition/changebounds</item>-->
-        <!--<item name="android:windowSharedElementExitTransition">@transition/changebounds</item>-->
     </style>
 
     <style name="Theme.Bacon.Detail">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
 </resources>
